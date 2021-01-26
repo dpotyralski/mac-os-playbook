@@ -1,0 +1,5 @@
+---
+- name: Installing applications from App Store"
+  shell: mas install {{ item }}
+  with_items: "{{ app_store }}"
+  ignore_errors: true

@@ -1,6 +1,9 @@
 ---
-- name: Install Applications
+- name: Install homebrew based applications
   include: homebrew-config.yml
+
+- name: Install App Store based applications
+  include: mas-config.yml
 
 - name: Dock Configuration
   include: dock-config.yml

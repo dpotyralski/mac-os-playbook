@@ -14,9 +14,9 @@
   homebrew:
     name: "{{ item.name|default(item) }}"
     state: present
+    install_options: with-baz,enable-debug
   loop: "{{ homebrew }}"
   ignore_errors: true
-
 
 - name: Refreshing sudo Cache
   command: "echo none"

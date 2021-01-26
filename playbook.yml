@@ -3,9 +3,9 @@
   connection: local
   roles:
     - macos-config
-    - dotfiles-config
-    - terminal-config
-    - dev-env-config
+#    - dotfiles-config
+#    - terminal-config
+#    - dev-env-config
 
   pre_tasks:
     - name: Validate if OSX

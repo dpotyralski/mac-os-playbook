@@ -1,26 +1,18 @@
-dotfiles_repository: pivovarit/dotfiles
-login_window_text: gpiwowarek@gmail.com
-dock_icon_size: 55
+dotfiles_repository: dpotyralski/dotfiles
+login_window_text: potyralski.damian@gmail.com
 dev_directory_name: Dev
 
 homebrew:
-  - aws-shell
-  - awscli
-  - bash
-  - bash-completion
   - curl
   - docker
   - docker-compose
+  - gh
   - git
-  - gnupg
-  - gnutls
-  - hub
+  - hey
   - htop
   - jenv
   - jq
-  - make
-  - maven
-  - mysql
+  - mas
   - neofetch
   - nmap
   - node
@@ -28,54 +20,39 @@ homebrew:
   - pstree
   - python
   - ruby
-  - rust
-  - sbt
-  - scala
-  - siege
-  - sysdig
   - tree
+  - watch
   - wget
   - wrk
   - yadm
-  - watch
   - zlib
   - zsh
 
 homebrew_cask:
-  - rectangle
-  - atom
-  - docker
+  - appcleaner
+  - google-chrome
   - iterm2
-  - jetbrains-toolbox
   - jprofiler
-  - karabiner-elements
+  - maccy
+  - the-unarchiver
   - slack
-  - spotify
-  - sysdig-inspect
-  - virtualbox
-  - vlc
-  - wireshark
+  - skype
+
+app_store:
+  - 441258766
+  - 1480068668
 
 dockitems_to_remove:
   - Contacts
-  - Notes
-  - Reminders
+  - GarageBand
   - Maps
-  - Photos
-  - FaceTime
-  - iTunes
-  - iBooks
-  - App Store
-  - Siri
+  - Music
+  - Notes
+  - Podcasts
+  - Reminders
+  - TV
+  - iMovie
 
 github_projects:
-  - pivovarit/parallel-collectors
-  - pivovarit/articles
-  - pivovarit/es-collections
-  - pivovarit/throwing-function
-  - pivovarit/thread-factory
-  - pivovarit/pivovarit.github.io
-  - pivovarit/mac-os-playbook
-  - openjdk/jdk
-  - torvalds/linux
+  - dpotyralski/mac-os-playbook
 
